@@ -50,18 +50,17 @@ localmente Git.
 - Actualmente el proyecto se conecta a la base de datos usando JDBC (Java Data Base Connection)
 - Crea un nuevo repositorio en tu cuenta de github llamado cvds-7, y sigue lasinstrucciones delsiguiente tutorial de spring.
    - https://medium.com/@saultobias13/a-quick-start-with-spring-boot-and-spring-data-jpa-32718a8f4706
-![]()
+![](https://github.com/SantiagoMelo0104/CVDS-7/blob/Master/imagenes/2.0.png)
 - Crearemos una base de datoslocal usando Docker:
 - Descargar imagen de MySQL
-
+```
    docker pull mysql
-
-![]()
-![]()
+```
+![](https://github.com/SantiagoMelo0104/CVDS-7/blob/Master/imagenes/2.1.png)
 - Corrercontenedor de MySQL
-
+```
    docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:latest
-
+```
 ![]()
 - Descargar un cliente de base de datos: DBeaver
 - Crear una tabla de la base de datos: EMPLOYEE.
