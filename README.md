@@ -65,7 +65,7 @@ localmente Git.
 ![]()
 - Descargar un cliente de base de datos: DBeaver
 - Crear una tabla de la base de datos: EMPLOYEE.
-- Con lassiguientescolumnas:
+- Con las siguientescolumnas:
    - EMPLOYEE_ID (VARCHAR)
    - FIRST_NAME (VARCHAR)
    - LAST_NAME (VARCHAR)
