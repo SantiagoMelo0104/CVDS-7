@@ -14,21 +14,21 @@
 - Buscar la opción de Logs Stream, ingresar allí.Nos debe salir un mensaje que nosindica que primero debemos activar ó configurar loslogs.
 - Volver a la página anterior y presionar en la opción Configure Logs.
 - Vamos a configurarlos de la siguiente manera:
-- Application logging: ON(Level: Error)
-- Application login (Blob): OF
-- Web server logging: File System
-- Quota 35 MB
-- Retention Period: 3
-- Detailed error messages: ON
-- Failed request tracing: ON
+   - Application logging: ON(Level: Error)
+   - Application login (Blob): OF
+   - Web server logging: File System
+   - Quota 35 MB
+   - Retention Period: 3
+   - Detailed error messages: ON
+   - Failed request tracing: ON
 - —> Guardar.
 - Revisar qué está pasando a la hora de hacer login.
 - Revisión delcódigo fuente
-- Descargue el repositorio de MyShuttle de su cuenta de AzureDevOps(ADO).
-- Busque el repositorio MyShuttle en su cuenta de ADO
-- Ejecute elcomando gitclone para descargar el proyecto.
-- Sí le solicita una contraseña, presione el botón Generate Git Credentials y obtenga la contraseña generada para cuando se la solicite
-
+   - Descargue el repositorio de MyShuttle de su cuenta de AzureDevOps(ADO).
+      - Busque el repositorio MyShuttle en su cuenta de ADO
+      - Ejecute elcomando gitclone para descargar el proyecto.
+      - Sí le solicita una contraseña, presione el botón Generate Git Credentials y obtenga la contraseña generada para cuando se la solicite
+![](https://github.com/SantiagoMelo0104/CVDS-7/blob/Master/imagenes/parte1.1.jpg)
 localmente Git.
 ## ContinuousIntegration - Activando la opción integración continua en el Pipeline.
 - Buscar en ADO los pipelines, y editar el pipeline de nuestro proyecto.
